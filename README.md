@@ -1,5 +1,7 @@
 # War project
 
+Sjekk det ut her: https://kortspillet-krig.netlify.app/
+
 Quick start:
 
 ```
