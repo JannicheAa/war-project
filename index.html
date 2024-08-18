@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="all-content">
+      <div class="top-content">
+        <button id="get-new-deck-btn" class="get-new-deck-btn">Shuffle</button>
+        <p id="remaining-cards-number"></p>
+      </div>
+
+      <div class="centered-content">
+        <h1 id="header">Krig!</h1>
+        <div class="cards">
+          <div class="player">
+            <p>Mr. Data: <span id="score-mr-data">0</span></p>
+            <div class="card-slot" id="computer"></div>
+          </div>
+          <div class="player">
+            <div class="card-slot" id="me"></div>
+            <p>Meg: <span id="score-me">0</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content">
+        <button id="draw-btn" class="draw-btn">Draw</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
