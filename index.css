@@ -107,11 +107,3 @@ button {
     gap: 16px;
     width: 18vh;
 }
-
-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
